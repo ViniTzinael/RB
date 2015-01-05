@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+	<meta name="robots" content="noindex, nofollow">
+        <title>Rosa Bonheur les Activités</title>
+        <meta name="description" content="site du Rosa Bonheur les activités du Rosa" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/app.css">
+        <script src="js/modernizr.js"></script>
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="header" class="table">
+            <header class="cell txt-center">
+                <h1 class="logo">ROSA BONHEUR<span>La Guinguette Champêtre</span></h1>
+            </header>
+            <nav id="menu" class="menu cell txt-center">
+                <ul>
+                    <li><a href="index.html"><img src="img/" alt="home"/></a></li>
+                    <li><a href="guingette.html">GUINGUETTE</a></li>
+                    <li><a href="agenda.html">AGENDA</a></li>
+                    <li><a href="playlists.html">PLAYLIST</a></li>
+                    <li><a href="galeries.html">GALERIES</a></li>
+                    <li><a href="activites.html" class="is-active">ACTIVITES</a></li>
+                </ul>
+            </nav>
+            <form name="formbarre" class="cell">
+                <input type="text" name="barre" id="barre" value= "recherche..." />
+                <input type="button" onclick="rechercher() " value="start" />
+            </form>
+        </div>
+        <div id="slider">
+            <img src="img/" alt=""/>
+        </div>
+        <main>            
+            <section id="chorale" class="txt-center spacer">
+                <h2><span><img src="img/" alt="fanion"/></span>LA CHORALE<span><img src="img/" alt="fanion"/></span></h2>
+                <ul class="grid cell v-middle">
+                    <li class="col-2">
+                        <h3 class='h5-like'>COORDONNEE PAR UN CHEF DE CHORALE EMERITE ET PAR MIMI</h3>
+                        <p>La chorale de la guinguette offre aux organes de 50 choristes une expérience collective inédite dans le paysage des bistrots parisiens...</p>
+                        <a class='plus'>+</a>
+                        <p>gérante de l’établissement, la chorale de la guinguette offre aux organes de 50 choristes une expérience collective inédite dans le paysage des bistrots parisiens.
+                        </p>
+                    </li>
+                    <li class="col-2">
+                        <img src='img/' alt="" width="340" height="170"/>
+                    </li>
+                </ul>
+            </section>
+            <section id="foot" class="txt-center spacer">
+                <h2 class="txt-center"><span><img src="img/" alt="triangle"/></span>L'EQUIPE DE FOOT<span><img src="img/" alt="triangle"/></span></h2>
+                <ul class="grid cell v-middle">
+                    <li class="col-2">
+                        <img src='img/' alt="" width="340" height="170"/>
+                    </li>
+                    <li class="col-2">
+                        <h3 class='h5-like'>ROSA BONHEUR EST UNE GUINGUETTE SPORTIVE</h3>
+                        <p>Qui dispose de sa propre équipe de footballeuses ! Plusieurs années de suite, l’équipe a gagné la coupe....</p>
+                        <a class='plus'>+</a>
+                        <p>du Tournoi International de Paris, rencontre des sportifs amateurs LGBT. ROSA BONHEUR SOUTIENT LES DEGOMMEUSES !!! Les Dégommeuses existent officiellement depuis 2012. Cette association sportive et militante a choisi d’utiliser le football pour lutter contre les discriminations liées à l’identité de genre et à l’orientation sexuelle. Leurs modes d’action : visibilité, plaidoyer et actions de sensibilisation. Elles viennent notamment de coproduire et coréaliser un documentaire portant sur le Thokozani Football Club, une équipe de football réunissant des lesbiennes confrontées aux viols correctifs et autres crimes de haine en Afrique du Sud. Rosa Bonheur a soutenu ce projet, comme le précédent, la semaine d’actions “Foot For Love” qui a permis d’inviter à Paris le Thokozani FC en 2012.
+                        </p>
+                    </li>                    
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <ul id="rs" class="list-inline cell txt-right">
+                    <li><a href="https://www.facebook.com/rosabonheurparis" class="icon-facebook" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/rosabonheur" class="icon-twitter" target="_blank">Twitter</a></li>
+                    <li><a href="http://instagram.com/rosabonheurofficiel" class="icon-instagram" target="_blank">Instagram</a></li>
+                    <li><a href="http://vimeo.com/rosabonheur" class="icon-vimeo" target="_blank">Viméo</a></li>
+                    <li><a href="http://www.mixcloud.com/astrovixrosa/" class="icon-mixcloud" target="_blank">MixCloud</a></li>
+            </ul>
+            <ul id="telechargement" class="list-inline cell txt-right">
+                <li><a href="dossierpresse.pdf" class="icon-dp" target="_blank">Dossier de Presse</a></li>
+                <li><a href="logo.pdf" class="icon-logo" target="_blank">Logo</a></li>
+                <li><a href="charte.pdf" class="icon-charte" target="_blank">Charte du Rosa Bonheur</a></li>
+            </ul>
+            <ul id="telechargement" class="list-inline cell txt-right">
+                <li>© Copyright - Rosa Bonheur 2014</li>
+                <li><a href="mentions.html">Mentions légales</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
