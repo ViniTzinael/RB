@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+	<meta name="robots" content="noindex, nofollow">
+        <title>Rosa Bonheur les Playlists</title>
+        <meta name="description" content="site du Rosa Bonheur, les playlists" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/app.css">
+        <script src="js/modernizr.js"></script>
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="header" class="table">
+            <header class="cell txt-center">
+                <h1 class="logo">ROSA BONHEUR<span>La Guinguette Champêtre</span></h1>
+            </header>
+            <nav id="menu" class="menu cell txt-center">
+                <ul>
+                    <li><a href="index.html"><img src="img/" alt="home"/></a></li>
+                    <li><a href="guingette.html">GUINGUETTE</a></li>
+                    <li><a href="agenda.html">AGENDA</a></li>
+                    <li><a href="playlists.html" class="is-active">PLAYLIST</a></li>
+                    <li><a href="galeries.html">GALERIES</a></li>
+                    <li><a href="activites.html">ACTIVITES</a></li>
+                </ul>
+            </nav>
+            <form name="formbarre" class="cell">
+                <input type="text" name="barre" id="barre" value= "recherche..." />
+                <input type="button" onclick="rechercher() " value="start" />
+            </form>
+        </div>
+        <main>
+            <div>
+                <figure>
+                <img src="img/" alt="" width="960" height="730"/>
+                <figcaption><span>21Dec</span>PLAYLIST NUMA SEPTEMBRE 2014</figcaption>
+                </figure>
+            </div>
+            <div id="listplaylists" class="txt-center spacer">
+                <div class="wrap table">
+                    <ul class="grid cell v-middle">
+                        <li class="col-5">
+                            <a href="#">
+				<iframe width="210" height="340" src="https://www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fastrovixrosa%2Fplay-list-numa-septembre-2014%2F&amp;embed_uuid=464d0e47-0542-4b35-b495-cf10775dbf92&amp;replace=0&amp;embed_type=widget_standard" frameborder="0"></iframe>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                                <p style="display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: 202px;">
+                                    <a href="http://www.mixcloud.com/astrovixrosa/play-list-numa-septembre-2014/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=resource_link" target="_blank" style="color:#808080; font-weight:bold;">PLAY LIST NUMA SEPTEMBRE 2014</a>
+                                    <span> by </span>
+                                    <a href="http://www.mixcloud.com/astrovixrosa/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=profile_link" target="_blank" style="color:#808080; font-weight:bold;">Rosa Bonheur Paris</a>
+                                    <span> on </span>
+                                    <a href="http://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color:#808080; font-weight:bold;"> Mixcloud</a>
+                                </p>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                            </a>
+                        </li>
+                        <li class="col-5">
+                            <a href="#">
+				<iframe width="210" height="340" src="https://www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fastrovixrosa%2Fplay-list-numa-summer-2014%2F&amp;embed_uuid=c06a7cc2-16db-442a-af2f-12ed71594114&amp;replace=0&amp;embed_type=widget_standard" frameborder="0"></iframe>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                                <p style="display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: 202px;">
+                                    <a href="http://www.mixcloud.com/astrovixrosa/play-list-numa-summer-2014/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=resource_link" target="_blank" style="color:#808080; font-weight:bold;">PLAY LIST NUMA SUMMER 2014</a>
+                                    <span> by </span>
+                                    <a href="http://www.mixcloud.com/astrovixrosa/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=profile_link" target="_blank" style="color:#808080; font-weight:bold;">Rosa Bonheur Paris</a>
+                                    <span> on </span>
+                                    <a href="http://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color:#808080; font-weight:bold;"> Mixcloud</a>
+                                </p>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                            </a>
+                        </li>
+                        <li class="col-5">
+                            <a href="#">
+				<iframe width="210" height="340" src="https://www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fastrovixrosa%2Fplay-list-numa-mai-2014%2F&amp;embed_uuid=6620793d-3ff8-4a67-9374-c2e69b8a3b5b&amp;replace=0&amp;embed_type=widget_standard" frameborder="0"></iframe>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                                <p style="display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: 202px;">
+                                    <a href="http://www.mixcloud.com/astrovixrosa/play-list-numa-mai-2014/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=resource_link" target="_blank" style="color:#808080; font-weight:bold;">PLAY LIST NUMA MAI 2014</a>
+                                    <span> by </span>
+                                    <a href="http://www.mixcloud.com/astrovixrosa/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=profile_link" target="_blank" style="color:#808080; font-weight:bold;">Rosa Bonheur Paris</a>
+                                    <span> on </span>
+                                    <a href="http://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color:#808080; font-weight:bold;"> Mixcloud</a>
+                                </p>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                            </a>
+                        </li>
+                        <li class="col-5">
+                            <a href="#">
+				<iframe width="210" height="340" src="https://www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fastrovixrosa%2Fplay-list-numa-avril-2014%2F&amp;embed_uuid=30512d5b-8924-4212-9022-38da63310ee6&amp;replace=0&amp;embed_type=widget_standard" frameborder="0"></iframe>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                                <p style="display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: 202px;">
+                                    <a href="http://www.mixcloud.com/astrovixrosa/play-list-numa-avril-2014/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=resource_link" target="_blank" style="color:#808080; font-weight:bold;">PLAY LIST NUMA AVRIL 2014</a>
+                                    <span> by </span>
+                                    <a href="http://www.mixcloud.com/astrovixrosa/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=profile_link" target="_blank" style="color:#808080; font-weight:bold;">Rosa Bonheur Paris</a>
+                                    <span> on </span>
+                                    <a href="http://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color:#808080; font-weight:bold;"> Mixcloud</a>
+                                </p>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                            </a>
+                        </li>
+                        <li class="col-5">
+                            <a href="#">
+				<iframe width="210" height="340" src="https://www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fastrovixrosa%2Fplay-list-numa-mars-2014%2F&amp;embed_uuid=258580fa-21d0-44d0-a5b0-a8cccb4f0f6e&amp;replace=0&amp;embed_type=widget_standard" frameborder="0"></iframe>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                                <p style="display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: 202px;">
+                                    <a href="http://www.mixcloud.com/astrovixrosa/play-list-numa-mars-2014/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=resource_link" target="_blank" style="color:#808080; font-weight:bold;">PLAY LIST NUMA MARS 2014</a>
+                                    <span> by </span>
+                                    <a href="http://www.mixcloud.com/astrovixrosa/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=profile_link" target="_blank" style="color:#808080; font-weight:bold;">Rosa Bonheur Paris</a>
+                                    <span> on </span>
+                                    <a href="http://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color:#808080; font-weight:bold;"> Mixcloud</a>
+                                </p>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                            </a>
+                        </li>
+                        <li class="col-5">
+                            <a href="#">
+				<iframe width="210" height="340" src="https://www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fastrovixrosa%2Fplay-liste-numa-janvier-2014%2F&amp;embed_uuid=063e1502-61a5-4a51-baca-db47d337d448&amp;replace=0&amp;embed_type=widget_standard" frameborder="0"></iframe>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                                <p style="display: block; font-size: 11px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; margin: 0px; padding: 3px 4px; color: rgb(153, 153, 153); width: 202px;">
+                                    <a href="http://www.mixcloud.com/astrovixrosa/play-liste-numa-janvier-2014/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=resource_link" target="_blank" style="color:#808080; font-weight:bold;">PLAY LIST NUMA JANVIER 2014</a>
+                                    <span> by </span>
+                                    <a href="http://www.mixcloud.com/astrovixrosa/?utm_source=widget&amp;amp;utm_medium=web&amp;amp;utm_campaign=base_links&amp;amp;utm_term=profile_link" target="_blank" style="color:#808080; font-weight:bold;">Rosa Bonheur Paris</a>
+                                    <span> on </span>
+                                    <a href="http://www.mixcloud.com/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=homepage_link" target="_blank" style="color:#808080; font-weight:bold;"> Mixcloud</a>
+                                </p>
+                                <div style="clear: both; height: 3px; width: 202px;"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class='archives'>
+                    <img src="img/" alt=""/>
+                    <p>Archives :</p>
+                    <ul>
+                        <li>
+                                <a href="#">2013</a>
+                        </li>        
+                        <li>
+                                <a href="#">2012</a>
+                        </li>
+                        <li>
+                                <a href="#">2011</a>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <ul id="rs" class="list-inline cell txt-right">
+                    <li><a href="https://www.facebook.com/rosabonheurparis" class="icon-facebook" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/rosabonheur" class="icon-twitter" target="_blank">Twitter</a></li>
+                    <li><a href="http://instagram.com/rosabonheurofficiel" class="icon-instagram" target="_blank">Instagram</a></li>
+                    <li><a href="http://vimeo.com/rosabonheur" class="icon-vimeo" target="_blank">Viméo</a></li>
+                    <li><a href="http://www.mixcloud.com/astrovixrosa/" class="icon-mixcloud" target="_blank">MixCloud</a></li>
+            </ul>
+            <ul id="telechargement" class="list-inline cell txt-right">
+                <li><a href="dossierpresse.pdf" class="icon-dp" target="_blank">Dossier de Presse</a></li>
+                <li><a href="logo.pdf" class="icon-logo" target="_blank">Logo</a></li>
+                <li><a href="charte.pdf" class="icon-charte" target="_blank">Charte du Rosa Bonheur</a></li>
+            </ul>
+            <ul id="telechargement" class="list-inline cell txt-right">
+                <li>© Copyright - Rosa Bonheur 2014</li>
+                <li><a href="mentions.html">Mentions légales</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
